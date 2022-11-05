@@ -1,0 +1,85 @@
+.Hcard {
+  height: auto;
+}
+.Hcard #heading {
+  text-align: left;
+  padding: 0;
+}
+.Hcard .left img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.Hcard .right {
+  padding: 80px 50px;
+}
+.Hcard .items {
+  margin-top: 50px;
+}
+.Hcard .item {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.5s;
+}
+.Hcard .img {
+  width: 200px;
+}
+.Hcard img {
+  width: 70px;
+  height: 70px;
+}
+.Hcard .item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.Hcard .item p {
+  color: #999999;
+}
+.Hcard .item:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+.Hcard .item:hover p {
+  color: #fff;
+}
+
+/*----------awrapper------------*/
+
+.awrapper {
+  height: 30vh;
+  color: #013035;
+}
+.awrapper .box {
+  padding: 70px 0;
+  background-color: #1eb2a6;
+  align-items: center;
+  justify-content: center;
+}
+.awrapper img {
+  margin-right: 30px;
+}
+.awrapper h1 {
+  font-size: 50px;
+}
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .Hcard .container {
+    flex-direction: column-reverse;
+  }
+  .Hcard .left img {
+    margin-bottom: 80px;
+  }
+  .Hcard .row {
+    width: 100%;
+  }
+  .awrapper {
+    height: 50vh;
+  }
+}
