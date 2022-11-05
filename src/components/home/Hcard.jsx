@@ -2,6 +2,7 @@ import React from "react"
 import Heading from "../common/heading/Heading"
 import "./Home.css"
 import { homeAbout } from "../../data"
+import img from "../../images/hcard.jpg"
 
 const Hcard = () => {
   return (
@@ -9,7 +10,7 @@ const Hcard = () => {
       <section className='Hcard'>
         <div className='container flexSB'>
           <div className='left row'>
-          <img src="./images/hcard.jpg" alt="" />
+            <img src={img} alt="" />
           </div>
           <div className='right row'>
             <Heading subtitle='LEARN ANYTHING' title='Lorem ipsum dolor sit amet' />

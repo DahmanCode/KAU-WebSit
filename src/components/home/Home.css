@@ -70,6 +70,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .Hcard {
+    margin-top: 40%;
+  }
   .Hcard .container {
     flex-direction: column-reverse;
   }

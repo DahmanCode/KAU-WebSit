@@ -4,7 +4,7 @@
   padding: 20px 0;
 }
 .logo{
-  background-image: url("../../../../public/images/logo_kau.png");
+  background-image: url("../../../images/logo_kau.png");
   background-size: cover;
   /* position: absolute; */
   width: 15rem;
@@ -82,7 +82,7 @@ header ul li a:hover {
   }
   .mobile-nav {
     position: absolute;
-    top: 7vh;
+    top: 6vh;
     left: 0;
     width: 100%;
     background-color: #013035;
