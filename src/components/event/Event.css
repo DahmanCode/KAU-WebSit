@@ -1,0 +1,159 @@
+.event {
+  background-image: url("../../images/header.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  padding-top: 20%;
+}
+.event h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Georgia, garamond, serif;
+  margin-top: 2rem;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+  width: 90%;
+  height: 80vh;
+  /* border: 1rem solid #013035; */
+}
+
+.center .upcoming,
+.center .previous {
+  width: 30%;
+  /* border: 5px solid #013035; */
+  border-radius: 1rem;
+  height: 80%;
+  margin: 2rem;
+  background-color: rgb(30, 178, 166, 40%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center .upcoming a,
+.center .previous a {
+  /* border: 5px solid #013035; */
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: Georgia, garamond, serif;
+  color: #fff;
+  background-color: rgb(30, 178, 166);
+  cursor: pointer;
+  transition: .1s;
+}
+
+.center .upcoming a:hover,
+.center .previous a:hover {
+  border: 3px solid #013035;
+  color: #013035;
+  background-color: transparent;
+}
+
+.e-content {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 5rem 20rem;
+  /* background-color: rgba(253, 243, 194, 60%); */
+}
+
+.e-content .image {
+  width: 45%;
+  height: auto;
+}
+
+.e-content .image img{
+  width: 100%;
+  background-size: cover;
+  
+}
+
+.e-content .desc {
+  width: 55%;
+  padding-left: 4rem;
+  font-family: Georgia, garamond, serif;
+  color: #013035;
+}
+
+.e-content .desc .details {
+  border: 2px solid #013035;
+  border-radius: 5px;
+  margin-bottom: 5rem;  
+
+  padding: 4rem;
+}
+
+.e-content .desc .details h1 {
+  font-size: 2.6rem;
+  padding-bottom: 3rem;
+}
+
+.e-content .desc h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1eb2a6;
+}
+
+.e-content .desc .details h1 b{
+  color: #1eb2a6;
+}
+
+.e-content .desc .details span{
+  display: flex;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.details span i {
+  padding-right: 2rem;
+  font-size: 2.4rem;
+}
+
+.post {
+  padding: 2rem;
+  border: 2px solid #013035;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.post h3 {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.post textarea {
+  padding: .5rem;
+  background-color: #f2f2f2;
+  resize: none;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.post div .fa-solid {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transition: .1s;
+}
+
+.post div .fa-heart:hover {
+  color: #f53c3c;
+}
+
+.post div .fa-share:hover {
+  color: #4242f3;
+}

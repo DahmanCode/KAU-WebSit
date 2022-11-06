@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import imgRight from "../../images/history.jpg"
-import video from "../../images/KAU Campuses.mp4"
 
 function About() {
   return (

@@ -12,6 +12,7 @@
   padding-top: 20%;
   padding-right: 50px;
   color: #fff;
+  z-index: 0;
 }
 .hero #heading h3 {
   color: #fff;
@@ -28,6 +29,9 @@
 }
 .hero p {
   border-radius: 0 0 5px 5px;
+}
+.hero .container {
+  z-index: 10;
 }
 .margin {
   margin-top: 48%;
