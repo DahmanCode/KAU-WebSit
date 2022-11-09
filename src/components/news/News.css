@@ -1,0 +1,88 @@
+.news {
+  background-image: url("../../images/header.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  padding-top: 20%;
+  font-family: Georgia, garamond, serif;
+}
+
+.news-title {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  /* margin-bottom: 3rem; */
+}
+
+.news-title i {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #1eb2a6;
+}
+
+.latest-news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 4rem 8rem;
+}
+
+.latest-news h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #013035;
+  width: 80rem;
+  background-color: rgb(30, 178, 166, 60%);
+  padding: 1rem 5rem;
+  margin-bottom: 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
+}
+
+.latest-news p::first-letter {
+  color: #013035;
+  font-size: 3rem;
+}
+
+.latest-news p {
+  font-size: 1.4rem;
+  letter-spacing: 1.4px;
+  line-height: 2.5rem;
+}
+
+.Interaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 8rem;
+  margin-bottom: 5rem;
+  width: 10rem;
+}
+
+.Interaction div .fa-solid {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding-bottom: .5rem;
+  transition: .1s;
+}
+
+.Interaction div .fa-heart:hover {
+  color: #f53c3c;
+}
+
+.Interaction div .fa-share:hover {
+  color: #4242f3;
+}
+
+.Interaction div h3 {
+  color: #017e8b;
+}
